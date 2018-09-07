@@ -1,4 +1,6 @@
-# Steps to repoduce
+Referencing bugreport: https://github.com/serverless/serverless/issues/5278
+
+## Steps to repoduce
 
 1. `npm i`
 2. `npm run sls:deploy`
