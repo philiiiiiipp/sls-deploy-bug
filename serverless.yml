@@ -1,0 +1,18 @@
+service: sls-deploy-test
+
+provider:
+  # This works fine
+  # name: aws
+
+  # This does not work
+  name: ${file(./serverless.values.yml):providerName}
+
+  runtime: nodejs8.10
+  region: eu-west-1
+  stage: dev
+
+functions:
+  onlyDatHuisEmail:
+    handler: ./index.handler
+    memorySize: 128
+    timeout: 3

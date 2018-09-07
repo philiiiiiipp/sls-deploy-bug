@@ -1,0 +1,14 @@
+{
+  "name": "sls-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sls:deploy": "SLS_DEBUG=true sls deploy"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "serverless": "^1.30.3"
+  }
+}
