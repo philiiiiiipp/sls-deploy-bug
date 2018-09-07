@@ -47,6 +47,8 @@ Serverless: Invoke deploy
 Serverless: Invoke package
 Serverless: Packaging service...
 Serverless: Excluding development dependencies...
+
+$ 
 ```
 
 After which it silently stops without deploying.
